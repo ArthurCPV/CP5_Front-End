@@ -1,5 +1,5 @@
 # DOCUMENTAÇÃO TÉCNICA
-## Chekpoint 05 da disciplinade Front-end
+## Chekpoint 05 da disciplina de Front-end
 
 ---
 
