@@ -1,0 +1,297 @@
+{
+  "classicas": {
+    "Entradas e Aperitivos": [
+      {
+        "nome": "Bruschetta Italiana",
+        "tempo": "15 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bruschetta-italiana.jpg"
+      },
+      {
+        "nome": "Bolinha de Queijo",
+        "tempo": "20 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolinha-de-queijo.jpg"
+      },
+      {
+        "nome": "Pastinha de Grão-de-Bico",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pasta-de-grao-de-bico.jpg"
+      },
+      {
+        "nome": "Canapés de Presunto",
+        "tempo": "15 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/canape-de-presunto.jpg"
+      },
+      {
+        "nome": "Mini Coxinha",
+        "tempo": "25 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango.jpg"
+      },
+      {
+        "nome": "Guacamole com Nachos",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/guacamole.jpg"
+      }
+    ],
+    "Pratos Principais": [
+      {
+        "nome": "Strogonoff de Frango",
+        "tempo": "30 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-de-frango.jpg"
+      },
+      {
+        "nome": "Lasanha à Bolonhesa",
+        "tempo": "50 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/lasanha-a-bolonhesa.jpg"
+      },
+      {
+        "nome": "Peixe ao Molho de Coco",
+        "tempo": "40 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/peixe-ao-molho-de-coco.jpg"
+      },
+      {
+        "nome": "Frango Assado",
+        "tempo": "60 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/frango-assado.jpg"
+      },
+      {
+        "nome": "Arroz de Forno",
+        "tempo": "35 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/arroz-de-forno.jpg"
+      },
+      {
+        "nome": "Macarrão Carbonara",
+        "tempo": "25 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/carbonara.jpg"
+      }
+    ],
+    "Sobremesas": [
+      {
+        "nome": "Pudim de Leite",
+        "tempo": "45 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pudim-de-leite.jpg"
+      },
+      {
+        "nome": "Brigadeiro",
+        "tempo": "20 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro.jpg"
+      },
+      {
+        "nome": "Mousse de Maracujá",
+        "tempo": "20 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/mousse-de-maracuja.jpg"
+      },
+      {
+        "nome": "Torta de Limão",
+        "tempo": "30 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/torta-de-limao.jpg"
+      },
+      {
+        "nome": "Brownie de Chocolate",
+        "tempo": "35 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brownie-de-chocolate.jpg"
+      },
+      {
+        "nome": "Bolo de Cenoura",
+        "tempo": "40 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura.jpg"
+      }
+    ],
+    "Bebidas": [
+      {
+        "nome": "Suco Verde Detox",
+        "tempo": "5 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/suco-verde-detox.jpg"
+      },
+      {
+        "nome": "Vitamina de Banana",
+        "tempo": "5 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/vitamina-de-banana.jpg"
+      },
+      {
+        "nome": "Drink de Morango",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/drink-de-morango.jpg"
+      },
+      {
+        "nome": "Chocolate Quente Cremoso",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/chocolate-quente.jpg"
+      },
+      {
+        "nome": "Limonada Suíça",
+        "tempo": "5 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/limonada-suica.jpg"
+      },
+      {
+        "nome": "Café Gelado",
+        "tempo": "7 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cafe-gelado.jpg"
+      }
+    ],
+    "Lanches e Sanduíches": [
+      {
+        "nome": "Hambúrguer Artesanal",
+        "tempo": "25 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/hamburguer-artesanal.jpg"
+      },
+      {
+        "nome": "Misto Quente",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/misto-quente.jpg"
+      },
+      {
+        "nome": "Nuggets Caseiros",
+        "tempo": "20 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/nuggets-caseiros.jpg"
+      },
+      {
+        "nome": "Wrap de Frango",
+        "tempo": "15 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/wrap-de-frango.jpg"
+      },
+      {
+        "nome": "Cachorro Quente",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cachorro-quente.jpg"
+      },
+      {
+        "nome": "Tapioca com Queijo",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/tapioca-com-queijo.jpg"
+      }
+    ]
+  },
+
+  "rapidas": {
+    "Refeições Expressas": [
+      {
+        "nome": "Omelete de Queijo e Tomate",
+        "tempo": "7 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/omelete-de-queijo-e-tomate.jpg"
+      },
+      {
+        "nome": "Macarrão Alho e Óleo",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/macarrao-alho-e-oleo.jpg"
+      },
+      {
+        "nome": "Arroz de Micro-ondas",
+        "tempo": "12 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/arroz-de-micro-ondas.jpg"
+      },
+      {
+        "nome": "Tapioca com Frango e Requeijão",
+        "tempo": "8 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/tapioca-de-frango.jpg"
+      },
+      {
+        "nome": "Panqueca Rápida",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/panqueca-rapida.jpg"
+      },
+      {
+        "nome": "Sanduíche de Atum",
+        "tempo": "5 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/sanduiche-de-atum.jpg"
+      }
+    ],
+    "Doces Fáceis": [
+      {
+        "nome": "Brigadeiro de Micro-ondas",
+        "tempo": "6 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro-de-microondas.jpg"
+      },
+      {
+        "nome": "Mug Cake de Chocolate",
+        "tempo": "4 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/mug-cake.jpg"
+      },
+      {
+        "nome": "Banana Caramelizada",
+        "tempo": "8 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/banana-caramelizada.jpg"
+      },
+      {
+        "nome": "Pipoca Doce",
+        "tempo": "10 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pipoca-doce.jpg"
+      }
+    ],
+    "Bebidas Rápidas": [
+      {
+        "nome": "Smoothie de Morango",
+        "tempo": "5 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/smoothie-de-morango.jpg"
+      },
+      {
+        "nome": "Café com Leite Gelado",
+        "tempo": "3 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cafe-com-leite-gelado.jpg"
+      },
+      {
+        "nome": "Shake de Chocolate",
+        "tempo": "4 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/shake-de-chocolate.jpg"
+      }
+    ]
+  },
+
+  "tematicas": {
+    "Festas e Comemorações": [
+      {
+        "nome": "Mini Pizzas de Festa",
+        "tempo": "25 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/mini-pizza.jpg"
+      },
+      {
+        "nome": "Cachorro-Quente de Festa",
+        "tempo": "20 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cachorro-quente-festa.jpg"
+      },
+      {
+        "nome": "Bolo de Aniversário Simples",
+        "tempo": "40 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-aniversario.jpg"
+      },
+      {
+        "nome": "Brigadeiro Gourmet",
+        "tempo": "25 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro-gourmet.jpg"
+      }
+    ],
+    "Datas Especiais": [
+      {
+        "nome": "Bacalhau de Páscoa",
+        "tempo": "60 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bacalhau-de-pascoa.jpg"
+      },
+      {
+        "nome": "Rabanada de Natal",
+        "tempo": "25 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/rabanada-de-natal.jpg"
+      },
+      {
+        "nome": "Panetone Caseiro",
+        "tempo": "90 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/panetone-caseiro.jpg"
+      }
+    ],
+    "Culinária Internacional": [
+      {
+        "nome": "Tacos Mexicanos",
+        "tempo": "30 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/tacos-mexicanos.jpg"
+      },
+      {
+        "nome": "Sushi Simples",
+        "tempo": "40 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/sushi-simples.jpg"
+      },
+      {
+        "nome": "Crepe Francês",
+        "tempo": "20 min",
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/crepe-frances.jpg"
+      }
+    ]
+  }
+}
