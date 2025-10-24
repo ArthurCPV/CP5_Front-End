@@ -21,7 +21,7 @@ export function ReceitasProvider({ children }: { children: ReactNode }) {
   const [receitas, setReceitas] = useState<Receita[]>([]);
 
   useEffect(() => {
-    fetch("/data/receitas.json")
+    fetch("../data/receitas.json")
       .then((res) => res.json())
       .then((data) => setReceitas(data));
   }, []);
