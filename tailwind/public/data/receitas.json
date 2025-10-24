@@ -2,296 +2,848 @@
   "classicas": {
     "Entradas e Aperitivos": [
       {
+        "id": 1,
         "nome": "Bruschetta Italiana",
         "tempo": "15 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bruschetta-italiana.jpg"
+        "imagem": "https://images.unsplash.com/photo-1589308078059-918368d0e26b?w=800&q=80",
+        "descricao": "Pão italiano com tomate, manjericão e azeite.",
+        "ingredientes": ["Pão italiano", "Tomate", "Manjericão", "Azeite", "Sal"],
+        "modoPreparo": "Toste o pão, adicione tomates picados, manjericão e azeite. Sirva."
       },
       {
-        "nome": "Bolinha de Queijo",
+        "id": 2,
+        "nome": "Bolinhas de Queijo",
         "tempo": "20 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolinha-de-queijo.jpg"
+        "imagem": "https://images.unsplash.com/photo-1608737638606-0c74f97b4370?w=800&q=80",
+        "descricao": "Salgadinho clássico crocante e derretido por dentro.",
+        "ingredientes": ["Queijo muçarela", "Farinha", "Ovo", "Farinha de rosca", "Óleo"],
+        "modoPreparo": "Empane as bolinhas e frite até dourar."
       },
       {
-        "nome": "Pastinha de Grão-de-Bico",
+        "id": 3,
+        "nome": "Guacamole Tradicional",
         "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pasta-de-grao-de-bico.jpg"
+        "imagem": "https://images.unsplash.com/photo-1601050690597-8b3cbe3c971d?w=800&q=80",
+        "descricao": "Creme de abacate mexicano temperado com limão e cebola.",
+        "ingredientes": ["Abacate", "Cebola", "Tomate", "Limão", "Sal"],
+        "modoPreparo": "Amasse o abacate e misture os demais ingredientes."
       },
       {
-        "nome": "Canapés de Presunto",
+        "id": 4,
+        "nome": "Homus Clássico",
         "tempo": "15 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/canape-de-presunto.jpg"
+        "imagem": "https://images.unsplash.com/photo-1617196034792-8d9ffbd6ed8e?w=800&q=80",
+        "descricao": "Pasta cremosa de grão-de-bico com tahine e limão.",
+        "ingredientes": ["Grão-de-bico", "Tahine", "Limão", "Alho", "Azeite"],
+        "modoPreparo": "Bata todos os ingredientes no processador e sirva com torradas."
       },
       {
-        "nome": "Mini Coxinha",
-        "tempo": "25 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/coxinha-de-frango.jpg"
-      },
-      {
-        "nome": "Guacamole com Nachos",
+        "id": 5,
+        "nome": "Salada Caprese",
         "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/guacamole.jpg"
+        "imagem": "https://images.unsplash.com/photo-1601924582971-03b41a5e57a5?w=800&q=80",
+        "descricao": "Mussarela, tomate e manjericão com azeite e balsâmico.",
+        "ingredientes": ["Tomate", "Mussarela", "Manjericão", "Azeite", "Vinagre balsâmico"],
+        "modoPreparo": "Monte as camadas e regue com azeite e balsâmico."
+      },
+      {
+        "id": 6,
+        "nome": "Canapés de Salmão",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034796-9d72b52a3c14?w=800&q=80",
+        "descricao": "Mini torradas com salmão defumado e cream cheese.",
+        "ingredientes": ["Salmão defumado", "Cream cheese", "Torradas", "Endro"],
+        "modoPreparo": "Monte os canapés e sirva gelado."
       }
     ],
     "Pratos Principais": [
       {
+        "id": 7,
         "nome": "Strogonoff de Frango",
         "tempo": "30 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/strogonoff-de-frango.jpg"
+        "imagem": "https://images.unsplash.com/photo-1617196034775-3ed9c91f13a6?w=800&q=80",
+        "descricao": "Clássico brasileiro cremoso e saboroso.",
+        "ingredientes": ["Frango", "Creme de leite", "Ketchup", "Mostarda", "Cebola"],
+        "modoPreparo": "Refogue o frango e adicione o molho e o creme de leite."
       },
       {
-        "nome": "Lasanha à Bolonhesa",
-        "tempo": "50 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/lasanha-a-bolonhesa.jpg"
-      },
-      {
-        "nome": "Peixe ao Molho de Coco",
-        "tempo": "40 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/peixe-ao-molho-de-coco.jpg"
-      },
-      {
-        "nome": "Frango Assado",
-        "tempo": "60 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/frango-assado.jpg"
-      },
-      {
-        "nome": "Arroz de Forno",
-        "tempo": "35 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/arroz-de-forno.jpg"
-      },
-      {
-        "nome": "Macarrão Carbonara",
+        "id": 8,
+        "nome": "Macarrão à Bolonhesa",
         "tempo": "25 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/carbonara.jpg"
+        "imagem": "https://images.unsplash.com/photo-1601050690183-029d2f463dc2?w=800&q=80",
+        "descricao": "Massa italiana com molho de carne e tomate.",
+        "ingredientes": ["Macarrão", "Carne moída", "Molho de tomate", "Cebola", "Alho"],
+        "modoPreparo": "Cozinhe o macarrão e cubra com o molho."
+      },
+      {
+        "id": 9,
+        "nome": "Peixe Assado com Legumes",
+        "tempo": "40 min",
+        "imagem": "https://images.unsplash.com/photo-1613145993481-30f5a2b4b1c5?w=800&q=80",
+        "descricao": "Leve e nutritivo, perfeito para o almoço.",
+        "ingredientes": ["Peixe", "Cenoura", "Abobrinha", "Azeite", "Limão"],
+        "modoPreparo": "Tempere e asse com legumes."
+      },
+      {
+        "id": 10,
+        "nome": "Feijoada Simples",
+        "tempo": "1h 20 min",
+        "imagem": "https://images.unsplash.com/photo-1606755962773-bca8f869adf8?w=800&q=80",
+        "descricao": "O prato mais brasileiro de todos!",
+        "ingredientes": ["Feijão preto", "Linguiça", "Carne seca", "Bacon"],
+        "modoPreparo": "Cozinhe o feijão com as carnes até encorpar."
+      },
+      {
+        "id": 11,
+        "nome": "Arroz Carreteiro",
+        "tempo": "35 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034788-6aaf5b4df8ec?w=800&q=80",
+        "descricao": "Prato típico do sul com sobras de churrasco.",
+        "ingredientes": ["Arroz", "Carne seca", "Cebola", "Alho"],
+        "modoPreparo": "Refogue os ingredientes e adicione o arroz até cozinhar."
+      },
+      {
+        "id": 12,
+        "nome": "Frango Grelhado com Batatas",
+        "tempo": "25 min",
+        "imagem": "https://images.unsplash.com/photo-1601924928330-50f00b1b43e0?w=800&q=80",
+        "descricao": "Simples e nutritivo, ideal para o dia a dia.",
+        "ingredientes": ["Frango", "Batatas", "Alho", "Azeite", "Sal"],
+        "modoPreparo": "Tempere e grelhe o frango com batatas douradas."
       }
     ],
     "Sobremesas": [
       {
-        "nome": "Pudim de Leite",
-        "tempo": "45 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pudim-de-leite.jpg"
-      },
-      {
+        "id": 13,
         "nome": "Brigadeiro",
         "tempo": "20 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro.jpg"
+        "imagem": "https://images.unsplash.com/photo-1613141411244-0e3e7bb6aab3?w=800&q=80",
+        "descricao": "O doce brasileiro mais amado.",
+        "ingredientes": ["Leite condensado", "Chocolate em pó", "Manteiga"],
+        "modoPreparo": "Misture tudo e cozinhe até desgrudar do fundo."
       },
       {
+        "id": 14,
+        "nome": "Pudim de Leite",
+        "tempo": "1h",
+        "imagem": "https://images.unsplash.com/photo-1627328715728-7bcc1b5db87d?w=800&q=80",
+        "descricao": "Clássico e cremoso, com calda de caramelo.",
+        "ingredientes": ["Leite condensado", "Leite", "Ovos", "Açúcar"],
+        "modoPreparo": "Bata tudo, asse em banho-maria e desenforme frio."
+      },
+      {
+        "id": 15,
         "nome": "Mousse de Maracujá",
-        "tempo": "20 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/mousse-de-maracuja.jpg"
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=800&q=80",
+        "descricao": "Refrescante e fácil de preparar.",
+        "ingredientes": ["Leite condensado", "Creme de leite", "Suco de maracujá"],
+        "modoPreparo": "Bata tudo e leve à geladeira."
       },
       {
+        "id": 16,
         "nome": "Torta de Limão",
-        "tempo": "30 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/torta-de-limao.jpg"
-      },
-      {
-        "nome": "Brownie de Chocolate",
-        "tempo": "35 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brownie-de-chocolate.jpg"
-      },
-      {
-        "nome": "Bolo de Cenoura",
         "tempo": "40 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-cenoura.jpg"
+        "imagem": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+        "descricao": "Equilíbrio perfeito entre doce e azedo.",
+        "ingredientes": ["Biscoito", "Manteiga", "Leite condensado", "Limão"],
+        "modoPreparo": "Monte a base, adicione o creme e leve ao forno."
+      },
+      {
+        "id": 17,
+        "nome": "Bolo de Cenoura com Cobertura",
+        "tempo": "50 min",
+        "imagem": "https://images.unsplash.com/photo-1627308595516-e8ce8c9447e3?w=800&q=80",
+        "descricao": "Clássico com cobertura de chocolate.",
+        "ingredientes": ["Cenoura", "Ovos", "Farinha", "Açúcar", "Chocolate"],
+        "modoPreparo": "Bata a massa, asse e cubra com calda."
+      },
+      {
+        "id": 18,
+        "nome": "Beijinho",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1605478500123-e47b0b06a8e1?w=800&q=80",
+        "descricao": "Doce de coco com leite condensado.",
+        "ingredientes": ["Leite condensado", "Coco ralado", "Manteiga"],
+        "modoPreparo": "Cozinhe até soltar do fundo e enrole."
       }
     ],
     "Bebidas": [
       {
-        "nome": "Suco Verde Detox",
+        "id": 19,
+        "nome": "Suco de Laranja Natural",
         "tempo": "5 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/suco-verde-detox.jpg"
+        "imagem": "https://images.unsplash.com/photo-1576402187878-974f70a35c3e?w=800&q=80",
+        "descricao": "Refrescante e cheio de vitamina C.",
+        "ingredientes": ["Laranjas frescas"],
+        "modoPreparo": "Esprema as laranjas e sirva gelado."
       },
       {
+        "id": 20,
         "nome": "Vitamina de Banana",
         "tempo": "5 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/vitamina-de-banana.jpg"
+        "imagem": "https://images.unsplash.com/photo-1571715120392-360b61df9f4e?w=800&q=80",
+        "descricao": "Ideal para o café da manhã.",
+        "ingredientes": ["Banana", "Leite", "Açúcar"],
+        "modoPreparo": "Bata tudo no liquidificador."
       },
       {
-        "nome": "Drink de Morango",
-        "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/drink-de-morango.jpg"
-      },
-      {
-        "nome": "Chocolate Quente Cremoso",
-        "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/chocolate-quente.jpg"
-      },
-      {
-        "nome": "Limonada Suíça",
-        "tempo": "5 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/limonada-suica.jpg"
-      },
-      {
-        "nome": "Café Gelado",
+        "id": 21,
+        "nome": "Milkshake de Chocolate",
         "tempo": "7 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cafe-gelado.jpg"
+        "imagem": "https://images.unsplash.com/photo-1582459582296-6c44d3c941f4?w=800&q=80",
+        "descricao": "Sobremesa gelada e deliciosa.",
+        "ingredientes": ["Sorvete de chocolate", "Leite", "Calda de chocolate"],
+        "modoPreparo": "Bata no liquidificador até ficar cremoso."
+      },
+      {
+        "id": 22,
+        "nome": "Chá Gelado com Limão",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1568051243853-18663c3c332a?w=800&q=80",
+        "descricao": "Refrescante e leve.",
+        "ingredientes": ["Chá preto", "Limão", "Açúcar", "Gelo"],
+        "modoPreparo": "Prepare o chá, adicione limão e sirva com gelo."
+      },
+      {
+        "id": 23,
+        "nome": "Café Gelado",
+        "tempo": "5 min",
+        "imagem": "https://images.unsplash.com/photo-1608219959302-5fdfb8c9428d?w=800&q=80",
+        "descricao": "Perfeito para os dias quentes.",
+        "ingredientes": ["Café", "Leite", "Gelo", "Açúcar"],
+        "modoPreparo": "Misture tudo e sirva gelado."
+      },
+      {
+        "id": 24,
+        "nome": "Limonada Suíça",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1613478883737-4eae3f0e1ec8?w=800&q=80",
+        "descricao": "Refrescante e cremosa.",
+        "ingredientes": ["Limões", "Açúcar", "Água", "Gelo"],
+        "modoPreparo": "Bata tudo e coe antes de servir."
       }
     ],
     "Lanches e Sanduíches": [
       {
-        "nome": "Hambúrguer Artesanal",
-        "tempo": "25 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/hamburguer-artesanal.jpg"
+        "id": 25,
+        "nome": "Hambúrguer Caseiro",
+        "tempo": "30 min",
+        "imagem": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=80",
+        "descricao": "Suculento e fácil de fazer.",
+        "ingredientes": ["Carne moída", "Pão", "Queijo", "Alface", "Tomate"],
+        "modoPreparo": "Modele o hambúrguer, grelhe e monte o sanduíche."
       },
       {
+        "id": 26,
         "nome": "Misto Quente",
-        "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/misto-quente.jpg"
+        "tempo": "5 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034773-7e574601d6e6?w=800&q=80",
+        "descricao": "Clássico brasileiro do café da manhã.",
+        "ingredientes": ["Pão de forma", "Presunto", "Queijo", "Manteiga"],
+        "modoPreparo": "Monte o sanduíche e aqueça até derreter o queijo."
       },
       {
-        "nome": "Nuggets Caseiros",
-        "tempo": "20 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/nuggets-caseiros.jpg"
-      },
-      {
+        "id": 27,
         "nome": "Wrap de Frango",
         "tempo": "15 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/wrap-de-frango.jpg"
+        "imagem": "https://images.unsplash.com/photo-1606756790138-d20149b57b85?w=800&q=80",
+        "descricao": "Leve e saboroso.",
+        "ingredientes": ["Tortilha", "Frango", "Alface", "Requeijão"],
+        "modoPreparo": "Monte o wrap e aqueça rapidamente na frigideira."
       },
       {
-        "nome": "Cachorro Quente",
-        "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cachorro-quente.jpg"
+        "id": 28,
+        "nome": "Nuggets Caseiros",
+        "tempo": "25 min",
+        "imagem": "https://images.unsplash.com/photo-1625827836650-d46a0bb6ad7f?w=800&q=80",
+        "descricao": "Mais saudáveis e crocantes.",
+        "ingredientes": ["Frango", "Farinha", "Ovo", "Farinha de rosca"],
+        "modoPreparo": "Empane e frite ou asse os nuggets."
       },
       {
-        "nome": "Tapioca com Queijo",
-        "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/tapioca-com-queijo.jpg"
+        "id": 29,
+        "nome": "Cachorro-Quente Tradicional",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80",
+        "descricao": "Com molho e batata palha.",
+        "ingredientes": ["Salsicha", "Molho de tomate", "Pão", "Batata palha"],
+        "modoPreparo": "Monte o sanduíche com molho e finalize com batata palha."
+      },
+      {
+        "id": 30,
+        "nome": "Tostex de Queijo",
+        "tempo": "8 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034790-bf63c81cfef0?w=800&q=80",
+        "descricao": "Simples e irresistível.",
+        "ingredientes": ["Pão", "Queijo", "Manteiga"],
+        "modoPreparo": "Asse o sanduíche até o queijo derreter."
       }
-    ]
-  },
-
-  "rapidas": {
-    "Refeições Expressas": [
+  ]
+},
+"rapidas": {
+    "Receitas Rápidas (até 20 min)": [
       {
-        "nome": "Omelete de Queijo e Tomate",
+        "id": 31,
+        "nome": "Omelete Simples",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=800&q=80",
+        "descricao": "Rápido, nutritivo e delicioso.",
+        "ingredientes": ["Ovos", "Queijo", "Tomate", "Sal", "Azeite"],
+        "modoPreparo": "Bata os ovos, adicione os ingredientes e frite até dourar."
+      },
+      {
+        "id": 32,
+        "nome": "Tapioca de Queijo",
+        "tempo": "5 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034804-4b7c032e67e1?w=800&q=80",
+        "descricao": "Perfeita para o café da manhã.",
+        "ingredientes": ["Goma de tapioca", "Queijo", "Sal"],
+        "modoPreparo": "Aqueça a frigideira, espalhe a goma e recheie com queijo."
+      },
+      {
+        "id": 33,
+        "nome": "Macarrão Instantâneo com Ovo",
         "tempo": "7 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/omelete-de-queijo-e-tomate.jpg"
+        "imagem": "https://images.unsplash.com/photo-1603048297340-5d9423efc247?w=800&q=80",
+        "descricao": "Rápido e saboroso para emergências.",
+        "ingredientes": ["Macarrão instantâneo", "Ovo", "Cebolinha"],
+        "modoPreparo": "Cozinhe o macarrão e finalize com o ovo misturado."
       },
       {
-        "nome": "Macarrão Alho e Óleo",
+        "id": 34,
+        "nome": "Sanduíche Natural de Frango",
         "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/macarrao-alho-e-oleo.jpg"
+        "imagem": "https://images.unsplash.com/photo-1611042553484-d61f84d1e6c5?w=800&q=80",
+        "descricao": "Leve e prático para o dia a dia.",
+        "ingredientes": ["Frango desfiado", "Pão de forma", "Requeijão", "Alface"],
+        "modoPreparo": "Monte o sanduíche com todos os ingredientes."
       },
       {
-        "nome": "Arroz de Micro-ondas",
-        "tempo": "12 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/arroz-de-micro-ondas.jpg"
-      },
-      {
-        "nome": "Tapioca com Frango e Requeijão",
-        "tempo": "8 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/tapioca-de-frango.jpg"
-      },
-      {
+        "id": 35,
         "nome": "Panqueca Rápida",
-        "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/panqueca-rapida.jpg"
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1587735243615-c1f3c79a8f89?w=800&q=80",
+        "descricao": "Panqueca doce ou salgada em minutos.",
+        "ingredientes": ["Farinha", "Leite", "Ovo", "Sal", "Óleo"],
+        "modoPreparo": "Bata os ingredientes, frite e adicione o recheio desejado."
       },
       {
-        "nome": "Sanduíche de Atum",
-        "tempo": "5 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/sanduiche-de-atum.jpg"
+        "id": 36,
+        "nome": "Cuscuz Nordestino",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1603048297090-8500a8f693a5?w=800&q=80",
+        "descricao": "Tradicional e super fácil.",
+        "ingredientes": ["Flocos de milho", "Água", "Sal"],
+        "modoPreparo": "Hidrate os flocos e cozinhe na cuscuzeira por 5 minutos."
       }
     ],
-    "Doces Fáceis": [
+    "Receitas Econômicas": [
       {
-        "nome": "Brigadeiro de Micro-ondas",
-        "tempo": "6 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro-de-microondas.jpg"
+        "id": 37,
+        "nome": "Arroz com Ovo",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034799-c6b1dcb9b5aa?w=800&q=80",
+        "descricao": "Simples, barato e delicioso.",
+        "ingredientes": ["Arroz", "Ovos", "Sal", "Óleo"],
+        "modoPreparo": "Frite os ovos e misture com o arroz pronto."
       },
       {
-        "nome": "Mug Cake de Chocolate",
-        "tempo": "4 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/mug-cake.jpg"
+        "id": 38,
+        "nome": "Sopa de Legumes",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034786-b8dc23263f33?w=800&q=80",
+        "descricao": "Rende muito e custa pouco.",
+        "ingredientes": ["Batata", "Cenoura", "Abóbora", "Água", "Sal"],
+        "modoPreparo": "Cozinhe os legumes até amolecer e bata se desejar."
       },
       {
-        "nome": "Banana Caramelizada",
+        "id": 39,
+        "nome": "Purê de Batata",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1605478572153-1c6b53d8a57c?w=800&q=80",
+        "descricao": "Acompanhamento econômico e saboroso.",
+        "ingredientes": ["Batata", "Leite", "Manteiga", "Sal"],
+        "modoPreparo": "Cozinhe, amasse as batatas e misture os outros ingredientes."
+      },
+      {
+        "id": 40,
+        "nome": "Polenta Mole",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1589307000272-93c8b4f4b1f2?w=800&q=80",
+        "descricao": "Simples e barato de fazer.",
+        "ingredientes": ["Fubá", "Água", "Sal", "Manteiga"],
+        "modoPreparo": "Cozinhe o fubá com água e sal até engrossar."
+      },
+      {
+        "id": 41,
+        "nome": "Torta Econômica de Sardinha",
+        "tempo": "25 min",
+        "imagem": "https://images.unsplash.com/photo-1599021357844-66ef7281dc93?w=800&q=80",
+        "descricao": "Fácil e saborosa.",
+        "ingredientes": ["Farinha", "Leite", "Ovo", "Sardinha", "Fermento"],
+        "modoPreparo": "Misture tudo, coloque em forma e asse por 20 minutos."
+      },
+      {
+        "id": 42,
+        "nome": "Macarronada Simples",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800&q=80",
+        "descricao": "Rápida e econômica.",
+        "ingredientes": ["Macarrão", "Molho de tomate", "Sal"],
+        "modoPreparo": "Cozinhe o macarrão e adicione o molho."
+      }
+    ],
+    "Receitas Fit e Saudáveis": [
+      {
+        "id": 43,
+        "nome": "Salada de Frango Grelhado",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1612197527762-8b0bde91b9c5?w=800&q=80",
+        "descricao": "Leve e cheia de proteínas.",
+        "ingredientes": ["Frango", "Alface", "Tomate", "Azeite"],
+        "modoPreparo": "Grelhe o frango e monte a salada."
+      },
+      {
+        "id": 44,
+        "nome": "Smoothie Verde",
+        "tempo": "5 min",
+        "imagem": "https://images.unsplash.com/photo-1601050690183-029d2f463dc2?w=800&q=80",
+        "descricao": "Refrescante e detox.",
+        "ingredientes": ["Abacaxi", "Couve", "Água de coco", "Gelo"],
+        "modoPreparo": "Bata todos os ingredientes no liquidificador."
+      },
+      {
+        "id": 45,
+        "nome": "Ovo Mexido com Espinafre",
         "tempo": "8 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/banana-caramelizada.jpg"
+        "imagem": "https://images.unsplash.com/photo-1606756790138-d20149b57b85?w=800&q=80",
+        "descricao": "Rápido e saudável.",
+        "ingredientes": ["Ovos", "Espinafre", "Sal", "Azeite"],
+        "modoPreparo": "Refogue o espinafre e adicione os ovos batidos."
       },
       {
-        "nome": "Pipoca Doce",
+        "id": 46,
+        "nome": "Peito de Frango Grelhado",
         "tempo": "10 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pipoca-doce.jpg"
+        "imagem": "https://images.unsplash.com/photo-1627308595516-e8ce8c9447e3?w=800&q=80",
+        "descricao": "Clássico da alimentação saudável.",
+        "ingredientes": ["Frango", "Sal", "Limão", "Azeite"],
+        "modoPreparo": "Tempere e grelhe até dourar."
+      },
+      {
+        "id": 47,
+        "nome": "Salada de Grão-de-Bico",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1601050690597-8b3cbe3c971d?w=800&q=80",
+        "descricao": "Cheia de fibras e sabor.",
+        "ingredientes": ["Grão-de-bico", "Cebola", "Tomate", "Azeite"],
+        "modoPreparo": "Misture os ingredientes e tempere a gosto."
+      },
+      {
+        "id": 48,
+        "nome": "Wrap Fit de Atum",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034773-7e574601d6e6?w=800&q=80",
+        "descricao": "Prático e saudável.",
+        "ingredientes": ["Atum", "Tortilha", "Alface", "Iogurte"],
+        "modoPreparo": "Recheie a tortilha e enrole."
       }
     ],
-    "Bebidas Rápidas": [
+    "Receitas Vegetarianas/Veganas": [
       {
-        "nome": "Smoothie de Morango",
-        "tempo": "5 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/smoothie-de-morango.jpg"
+        "id": 49,
+        "nome": "Hambúrguer de Grão-de-Bico",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1550317138-10000687a72b?w=800&q=80",
+        "descricao": "Vegano e rico em proteínas.",
+        "ingredientes": ["Grão-de-bico", "Cebola", "Alho", "Aveia"],
+        "modoPreparo": "Bata tudo, modele e asse até dourar."
       },
       {
-        "nome": "Café com Leite Gelado",
-        "tempo": "3 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cafe-com-leite-gelado.jpg"
+        "id": 50,
+        "nome": "Legumes Assados",
+        "tempo": "25 min",
+        "imagem": "https://images.unsplash.com/photo-1606755962773-bca8f869adf8?w=800&q=80",
+        "descricao": "Coloridos e nutritivos.",
+        "ingredientes": ["Abobrinha", "Berinjela", "Cenoura", "Azeite"],
+        "modoPreparo": "Tempere e asse até ficarem dourados."
       },
       {
-        "nome": "Shake de Chocolate",
-        "tempo": "4 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/shake-de-chocolate.jpg"
+        "id": 51,
+        "nome": "Tofu Grelhado com Gergelim",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1625827836650-d46a0bb6ad7f?w=800&q=80",
+        "descricao": "Fonte de proteína vegetal.",
+        "ingredientes": ["Tofu", "Shoyu", "Gergelim", "Azeite"],
+        "modoPreparo": "Marine o tofu e grelhe por 5 minutos de cada lado."
+      },
+      {
+        "id": 52,
+        "nome": "Salada de Lentilha",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034790-bf63c81cfef0?w=800&q=80",
+        "descricao": "Refrescante e rica em nutrientes.",
+        "ingredientes": ["Lentilha", "Cebola roxa", "Tomate", "Azeite"],
+        "modoPreparo": "Cozinhe a lentilha e misture os ingredientes."
+      },
+      {
+        "id": 53,
+        "nome": "Espaguete de Abobrinha",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1601050690597-8b3cbe3c971d?w=800&q=80",
+        "descricao": "Alternativa leve à massa tradicional.",
+        "ingredientes": ["Abobrinha", "Molho de tomate", "Alho"],
+        "modoPreparo": "Corte a abobrinha em tiras e refogue com molho."
+      },
+      {
+        "id": 54,
+        "nome": "Tacos Veganos",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=800&q=80",
+        "descricao": "Deliciosos e cheios de sabor.",
+        "ingredientes": ["Tortilhas", "Feijão preto", "Guacamole", "Milho"],
+        "modoPreparo": "Monte os tacos com os recheios prontos."
+      }
+    ],
+    "Cozinha Caseira Brasileira": [
+      {
+        "id": 55,
+        "nome": "Arroz com Feijão",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1613145993481-30f5a2b4b1c5?w=800&q=80",
+        "descricao": "A base de toda refeição brasileira.",
+        "ingredientes": ["Arroz", "Feijão", "Alho", "Óleo", "Sal"],
+        "modoPreparo": "Cozinhe o arroz e o feijão separadamente e sirva juntos."
+      },
+      {
+        "id": 56,
+        "nome": "Farofa Simples",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1605478500123-e47b0b06a8e1?w=800&q=80",
+        "descricao": "Clássico acompanhamento brasileiro.",
+        "ingredientes": ["Farinha de mandioca", "Manteiga", "Cebola", "Sal"],
+        "modoPreparo": "Refogue os ingredientes e adicione a farinha."
+      },
+      {
+        "id": 57,
+        "nome": "Bife Acebolado",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1603048297340-5d9423efc247?w=800&q=80",
+        "descricao": "Simples, rápido e delicioso.",
+        "ingredientes": ["Carne", "Cebola", "Sal", "Azeite"],
+        "modoPreparo": "Grelhe o bife e finalize com cebola refogada."
+      },
+      {
+        "id": 58,
+        "nome": "Ovos com Tomate",
+        "tempo": "10 min",
+        "imagem": "https://images.unsplash.com/photo-1606755962773-bca8f869adf8?w=800&q=80",
+        "descricao": "Clássico das casas brasileiras.",
+        "ingredientes": ["Ovos", "Tomate", "Cebola", "Sal"],
+        "modoPreparo": "Refogue o tomate e adicione os ovos batidos."
+      },
+      {
+        "id": 59,
+        "nome": "Macarrão Alho e Óleo",
+        "tempo": "12 min",
+        "imagem": "https://images.unsplash.com/photo-1601050690183-029d2f463dc2?w=800&q=80",
+        "descricao": "Saboroso e pronto em minutos.",
+        "ingredientes": ["Macarrão", "Alho", "Azeite", "Sal"],
+        "modoPreparo": "Cozinhe o macarrão e misture com alho frito no azeite."
+      },
+      {
+        "id": 60,
+        "nome": "Caldo Verde",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1605478572153-1c6b53d8a57c?w=800&q=80",
+        "descricao": "Simples e reconfortante.",
+        "ingredientes": ["Batata", "Couve", "Linguiça", "Alho"],
+        "modoPreparo": "Cozinhe os ingredientes e bata parte deles para engrossar."
       }
     ]
   },
-
   "tematicas": {
     "Festas e Comemorações": [
       {
+        "id": 61,
         "nome": "Mini Pizzas de Festa",
         "tempo": "25 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/mini-pizza.jpg"
+        "imagem": "https://images.unsplash.com/photo-1601924582971-03b41a5e57a5?w=800&q=80",
+        "descricao": "Perfeitas para aniversários e encontros.",
+        "ingredientes": ["Massa de pizza", "Molho de tomate", "Queijo", "Orégano"],
+        "modoPreparo": "Monte as mini pizzas e asse até o queijo derreter."
       },
       {
+        "id": 62,
         "nome": "Cachorro-Quente de Festa",
         "tempo": "20 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/cachorro-quente-festa.jpg"
+        "imagem": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80",
+        "descricao": "Clássico das festas infantis.",
+        "ingredientes": ["Pão de hot dog", "Salsicha", "Molho de tomate", "Batata palha"],
+        "modoPreparo": "Cozinhe as salsichas, monte e finalize com batata palha."
       },
       {
-        "nome": "Bolo de Aniversário Simples",
+        "id": 63,
+        "nome": "Coxinha Tradicional",
         "tempo": "40 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-aniversario.jpg"
+        "imagem": "https://images.unsplash.com/photo-1590080875832-46b6df1df7f7?w=800&q=80",
+        "descricao": "O salgado mais amado das festas.",
+        "ingredientes": ["Farinha de trigo", "Frango desfiado", "Leite", "Caldo de galinha"],
+        "modoPreparo": "Prepare a massa, recheie e frite até dourar."
       },
       {
+        "id": 64,
+        "nome": "Bolo de Aniversário Simples",
+        "tempo": "50 min",
+        "imagem": "https://images.unsplash.com/photo-1599785209707-28c6be27c9b7?w=800&q=80",
+        "descricao": "Fofinho e com cobertura cremosa.",
+        "ingredientes": ["Farinha", "Ovos", "Açúcar", "Fermento", "Chocolate"],
+        "modoPreparo": "Bata os ingredientes, asse e cubra com calda de chocolate."
+      },
+      {
+        "id": 65,
         "nome": "Brigadeiro Gourmet",
         "tempo": "25 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro-gourmet.jpg"
+        "imagem": "https://images.unsplash.com/photo-1618876482516-8cf0e1e0e7e8?w=800&q=80",
+        "descricao": "Um toque especial para festas sofisticadas.",
+        "ingredientes": ["Leite condensado", "Cacau", "Manteiga", "Chocolate meio amargo"],
+        "modoPreparo": "Cozinhe até soltar do fundo e enrole em granulado belga."
+      },
+      {
+        "id": 66,
+        "nome": "Beijinho de Festa",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1605478500123-e47b0b06a8e1?w=800&q=80",
+        "descricao": "Docinho de coco tradicional das comemorações.",
+        "ingredientes": ["Leite condensado", "Coco ralado", "Manteiga", "Açúcar"],
+        "modoPreparo": "Cozinhe até soltar do fundo e enrole com açúcar cristal."
       }
     ],
     "Datas Especiais": [
       {
+        "id": 67,
         "nome": "Bacalhau de Páscoa",
         "tempo": "60 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/bacalhau-de-pascoa.jpg"
+        "imagem": "https://images.unsplash.com/photo-1626772873300-10bdfa79c2eb?w=800&q=80",
+        "descricao": "Tradicional prato da Semana Santa.",
+        "ingredientes": ["Bacalhau", "Batata", "Cebola", "Azeite", "Ovos"],
+        "modoPreparo": "Monte as camadas e leve ao forno até dourar."
       },
       {
+        "id": 68,
         "nome": "Rabanada de Natal",
         "tempo": "25 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/rabanada-de-natal.jpg"
+        "imagem": "https://images.unsplash.com/photo-1608198093002-ad4e005484c5?w=800&q=80",
+        "descricao": "Doce clássico das festas de fim de ano.",
+        "ingredientes": ["Pão francês", "Leite", "Ovos", "Açúcar", "Canela"],
+        "modoPreparo": "Passe o pão no leite e ovo, frite e polvilhe açúcar e canela."
       },
       {
+        "id": 69,
         "nome": "Panetone Caseiro",
         "tempo": "90 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/panetone-caseiro.jpg"
+        "imagem": "https://images.unsplash.com/photo-1608219994407-1a2cbafd2d1a?w=800&q=80",
+        "descricao": "Macio e aromático, perfeito para o Natal.",
+        "ingredientes": ["Farinha", "Ovos", "Açúcar", "Fermento", "Frutas cristalizadas"],
+        "modoPreparo": "Misture os ingredientes, deixe crescer e asse até dourar."
+      },
+      {
+        "id": 70,
+        "nome": "Pavê de Ano Novo",
+        "tempo": "30 min",
+        "imagem": "https://images.unsplash.com/photo-1612197527762-8b0bde91b9c5?w=800&q=80",
+        "descricao": "Camadas cremosas para celebrar o novo ano.",
+        "ingredientes": ["Biscoito", "Creme de leite", "Chocolate", "Leite condensado"],
+        "modoPreparo": "Monte as camadas e leve à geladeira por 2 horas."
+      },
+      {
+        "id": 71,
+        "nome": "Arroz Doce Junino",
+        "tempo": "35 min",
+        "imagem": "https://images.unsplash.com/photo-1630533211968-3d5bbd6e92e5?w=800&q=80",
+        "descricao": "Clássico das festas juninas.",
+        "ingredientes": ["Arroz", "Leite", "Açúcar", "Canela"],
+        "modoPreparo": "Cozinhe o arroz no leite e finalize com canela em pó."
+      },
+      {
+        "id": 72,
+        "nome": "Canjica Cremosa",
+        "tempo": "45 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034796-9d72b52a3c14?w=800&q=80",
+        "descricao": "Tradicional das festas de São João.",
+        "ingredientes": ["Canjica", "Leite condensado", "Leite", "Coco ralado"],
+        "modoPreparo": "Cozinhe a canjica e adicione o leite condensado e o coco."
       }
     ],
     "Culinária Internacional": [
       {
+        "id": 73,
         "nome": "Tacos Mexicanos",
         "tempo": "30 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/tacos-mexicanos.jpg"
+        "imagem": "https://images.unsplash.com/photo-1601924582971-03b41a5e57a5?w=800&q=80",
+        "descricao": "Recheados e cheios de sabor.",
+        "ingredientes": ["Tortilhas", "Carne moída", "Alface", "Guacamole"],
+        "modoPreparo": "Monte as tortilhas com os recheios e sirva."
       },
       {
-        "nome": "Sushi Simples",
-        "tempo": "40 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/sushi-simples.jpg"
+        "id": 74,
+        "nome": "Sushi Tradicional",
+        "tempo": "45 min",
+        "imagem": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+        "descricao": "O clássico japonês preparado em casa.",
+        "ingredientes": ["Arroz japonês", "Alga nori", "Peixe cru", "Vinagre de arroz"],
+        "modoPreparo": "Enrole os ingredientes e corte em rolinhos."
       },
       {
+        "id": 75,
         "nome": "Crepe Francês",
         "tempo": "20 min",
-        "imagem": "https://www.receiteria.com.br/wp-content/uploads/crepe-frances.jpg"
+        "imagem": "https://images.unsplash.com/photo-1565958011705-44e211f7ba7f?w=800&q=80",
+        "descricao": "Delicado e versátil, doce ou salgado.",
+        "ingredientes": ["Farinha", "Leite", "Ovo", "Manteiga"],
+        "modoPreparo": "Bata tudo, frite em frigideira e recheie a gosto."
+      },
+      {
+        "id": 76,
+        "nome": "Pizza Margherita Italiana",
+        "tempo": "30 min",
+        "imagem": "https://images.unsplash.com/photo-1601924582971-03b41a5e57a5?w=800&q=80",
+        "descricao": "Sabor clássico da Itália.",
+        "ingredientes": ["Massa de pizza", "Molho de tomate", "Queijo", "Manjericão"],
+        "modoPreparo": "Monte e asse até o queijo derreter."
+      },
+      {
+        "id": 77,
+        "nome": "Paella Espanhola",
+        "tempo": "60 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034775-3ed9c91f13a6?w=800&q=80",
+        "descricao": "Tradicional prato espanhol com frutos do mar.",
+        "ingredientes": ["Arroz", "Frutos do mar", "Pimentão", "Açafrão"],
+        "modoPreparo": "Cozinhe o arroz com os ingredientes até ficar cremoso."
+      },
+      {
+        "id": 78,
+        "nome": "Croissant de Queijo",
+        "tempo": "25 min",
+        "imagem": "https://images.unsplash.com/photo-1606756790138-d20149b57b85?w=800&q=80",
+        "descricao": "Tradicional café da manhã francês.",
+        "ingredientes": ["Massa folhada", "Queijo", "Manteiga"],
+        "modoPreparo": "Recheie, enrole e asse até dourar."
+      }
+    ],
+    "Temas Especiais": [
+      {
+        "id": 79,
+        "nome": "Cupcake de Halloween",
+        "tempo": "40 min",
+        "imagem": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80",
+        "descricao": "Divertido e assustadoramente gostoso.",
+        "ingredientes": ["Farinha", "Ovos", "Açúcar", "Corante laranja", "Chocolate"],
+        "modoPreparo": "Prepare a massa, asse e decore com tema de Halloween."
+      },
+      {
+        "id": 80,
+        "nome": "Cookies de Natal",
+        "tempo": "30 min",
+        "imagem": "https://images.unsplash.com/photo-1608219994377-bd8e14eaa6d0?w=800&q=80",
+        "descricao": "Perfeitos para presentear ou saborear.",
+        "ingredientes": ["Farinha", "Manteiga", "Açúcar", "Gotas de chocolate"],
+        "modoPreparo": "Misture, modele e asse até dourar."
+      },
+      {
+        "id": 81,
+        "nome": "Torta de Coração (Dia dos Namorados)",
+        "tempo": "45 min",
+        "imagem": "https://images.unsplash.com/photo-1565958011705-44e211f7ba7f?w=800&q=80",
+        "descricao": "Doce romântico para duas pessoas.",
+        "ingredientes": ["Massa de torta", "Morango", "Creme de leite", "Açúcar"],
+        "modoPreparo": "Monte e leve ao forno até dourar a massa."
+      },
+      {
+        "id": 82,
+        "nome": "Brownie de Páscoa",
+        "tempo": "35 min",
+        "imagem": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=800&q=80",
+        "descricao": "Perfeito para presentear na Páscoa.",
+        "ingredientes": ["Chocolate", "Farinha", "Açúcar", "Ovos", "Manteiga"],
+        "modoPreparo": "Misture e asse até ficar macio por dentro."
+      },
+      {
+        "id": 83,
+        "nome": "Cupcake de Ano Novo",
+        "tempo": "30 min",
+        "imagem": "https://images.unsplash.com/photo-1599785209707-28c6be27c9b7?w=800&q=80",
+        "descricao": "Doce simbólico para celebrar novos começos.",
+        "ingredientes": ["Farinha", "Açúcar", "Ovos", "Glitter comestível"],
+        "modoPreparo": "Prepare a massa e decore em estilo festivo."
+      },
+      {
+        "id": 84,
+        "nome": "Panqueca Americana de Domingo",
+        "tempo": "20 min",
+        "imagem": "https://images.unsplash.com/photo-1587735243615-c1f3c79a8f89?w=800&q=80",
+        "descricao": "Café da manhã doce e fofo.",
+        "ingredientes": ["Farinha", "Leite", "Ovos", "Fermento", "Mel"],
+        "modoPreparo": "Bata tudo, frite as panquecas e sirva com mel."
+      }
+    ],
+    "Conforto e Inverno": [
+      {
+        "id": 85,
+        "nome": "Chocolate Quente Cremoso",
+        "tempo": "15 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034788-6aaf5b4df8ec?w=800&q=80",
+        "descricao": "Perfeito para dias frios.",
+        "ingredientes": ["Leite", "Chocolate", "Açúcar", "Amido de milho"],
+        "modoPreparo": "Aqueça tudo até engrossar e sirva quente."
+      },
+      {
+        "id": 86,
+        "nome": "Sopa de Abóbora",
+        "tempo": "30 min",
+        "imagem": "https://images.unsplash.com/photo-1605478572153-1c6b53d8a57c?w=800&q=80",
+        "descricao": "Cremosa e reconfortante.",
+        "ingredientes": ["Abóbora", "Cebola", "Creme de leite", "Sal"],
+        "modoPreparo": "Cozinhe a abóbora e bata com os demais ingredientes."
+      },
+      {
+        "id": 87,
+        "nome": "Fondue de Queijo",
+        "tempo": "25 min",
+        "imagem": "https://images.unsplash.com/photo-1589308078059-918368d0e26b?w=800&q=80",
+        "descricao": "Clássico para noites frias.",
+        "ingredientes": ["Queijo", "Vinho branco", "Amido de milho"],
+        "modoPreparo": "Derreta tudo e sirva com pães e legumes."
+      },
+      {
+        "id": 88,
+        "nome": "Sopa de Lentilha",
+        "tempo": "35 min",
+        "imagem": "https://images.unsplash.com/photo-1603048297090-8500a8f693a5?w=800&q=80",
+        "descricao": "Nutritiva e reconfortante.",
+        "ingredientes": ["Lentilha", "Cebola", "Alho", "Sal"],
+        "modoPreparo": "Cozinhe a lentilha até amolecer e tempere."
+      },
+      {
+        "id": 89,
+        "nome": "Escondidinho de Carne Seca",
+        "tempo": "45 min",
+        "imagem": "https://images.unsplash.com/photo-1617196034775-3ed9c91f13a6?w=800&q=80",
+        "descricao": "Perfeito para o jantar de inverno.",
+        "ingredientes": ["Carne seca", "Purê de batata", "Queijo", "Cebola"],
+        "modoPreparo": "Monte em camadas e leve ao forno até dourar."
+      },
+      {
+        "id": 90,
+        "nome": "Caldo de Mandioca",
+        "tempo": "40 min",
+        "imagem": "https://images.unsplash.com/photo-1605478572153-1c6b53d8a57c?w=800&q=80",
+        "descricao": "Sabor intenso e textura cremosa.",
+        "ingredientes": ["Mandioca", "Caldo de carne", "Alho", "Cebola"],
+        "modoPreparo": "Cozinhe tudo e bata até ficar homogêneo."
       }
     ]
   }
 }
+

@@ -1,19 +1,22 @@
-import { useState } from "react";
+import { useForm, type SubmitHandler } from "react-hook-form";
+
+interface FormInputs {
+  nome: string;
+  email: string;
+  mensagem: string;
+}
 
 export default function Contato() {
-  const [nome, setNome] = useState("");
-  const [email, setEmail] = useState("");
-  const [mensagem, setMensagem] = useState("");
-  const [enviado, setEnviado] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitSuccessful },
+    reset,
+  } = useForm<FormInputs>();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (nome && email && mensagem) {
-      setEnviado(true);
-      setNome("");
-      setEmail("");
-      setMensagem("");
-    }
+  const onSubmit: SubmitHandler<FormInputs> = (data) => {
+    console.log("Mensagem enviada:", data);
+    reset();
   };
 
   return (
@@ -26,42 +29,53 @@ export default function Contato() {
         Envie uma mensagem pra gente!
       </p>
 
-      {enviado ? (
+      {isSubmitSuccessful ? (
         <p className="text-green-600 font-semibold text-center">
           ✅ Mensagem enviada com sucesso! Entraremos em contato em breve.
         </p>
       ) : (
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div>
             <label className="block font-medium text-gray-700 mb-1">Nome</label>
             <input
-              type="text"
-              value={nome}
-              onChange={(e) => setNome(e.target.value)}
+              {...register("nome", { required: "Digite seu nome" })}
               className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-green-600 outline-none"
-              required
             />
+            {errors.nome && (
+              <p className="text-red-500 text-sm">{errors.nome.message}</p>
+            )}
           </div>
+
           <div>
             <label className="block font-medium text-gray-700 mb-1">E-mail</label>
             <input
               type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              {...register("email", {
+                required: "Digite seu e-mail",
+                pattern: {
+                  value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                  message: "E-mail inválido",
+                },
+              })}
               className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-green-600 outline-none"
-              required
             />
+            {errors.email && (
+              <p className="text-red-500 text-sm">{errors.email.message}</p>
+            )}
           </div>
+
           <div>
             <label className="block font-medium text-gray-700 mb-1">Mensagem</label>
             <textarea
-              value={mensagem}
-              onChange={(e) => setMensagem(e.target.value)}
+              {...register("mensagem", { required: "Digite uma mensagem" })}
               rows={4}
               className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-green-600 outline-none resize-none"
-              required
             ></textarea>
+            {errors.mensagem && (
+              <p className="text-red-500 text-sm">{errors.mensagem.message}</p>
+            )}
           </div>
+
           <button
             type="submit"
             className="w-full bg-green-600 text-white py-2.5 rounded-lg font-semibold hover:bg-green-700 transition"
