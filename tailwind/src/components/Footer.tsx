@@ -57,7 +57,7 @@ function Footer() {
     </div>
 
     {/* Rodapé final */}
-    <div className="text-center py-4 border-t text-sm text-gray-500 bg-orange-50">
+    <div className="text-center py-4 border-t text-sm text-gray-200 bg-orange-600">
       © 2025 Sabores do Front — Projeto acadêmico FIAP | Checkpoint 5.
     </div>
   </footer>

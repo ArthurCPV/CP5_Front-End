@@ -14,7 +14,7 @@ interface RecipeSectionProps {
 }
 
 export default function RecipeSection({ titulo, receitas, filtro = "" }: RecipeSectionProps) {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0); // index do primeiro card visível
   const [animacao, setAnimacao] = useState<"left" | "right" | null>(null);
 
   const receitasFiltradas = receitas.filter((r) =>
@@ -26,33 +26,41 @@ export default function RecipeSection({ titulo, receitas, filtro = "" }: RecipeS
 
   if (total === 0) return null;
 
-  // 🔁 Retorna os 4 cards visíveis no estado atual, com looping infinito
+  // Gera um array circular e garante que sempre teremos "visiveis" elementos (repetindo se necessário)
+  const circularAt = (pos: number) => ((pos % total) + total) % total;
   const getVisiveis = () => {
-    const lista: Receita[] = [];
+    const list: Receita[] = [];
     for (let i = 0; i < visiveis; i++) {
-      const pos = (index + i) % total;
-      lista.push(receitasFiltradas[pos]);
+      list.push(receitasFiltradas[circularAt(index + i)]);
     }
-    return lista;
+    return list;
   };
 
+  // CLIQUE EM '▶' -> quer mostrar próxima receita: visualmente os cards deslizam para a esquerda
   const proximo = () => {
+    if (animacao) return; // evita cliques enquanto anima
+    setAnimacao("left"); // visualmente move para a esquerda
+    setTimeout(() => {
+      setIndex((prev) => circularAt(prev + 1));
+      setAnimacao(null);
+    }, 350); // combine com duration abaixo
+  };
+
+  // CLIQUE EM '◀' -> visualmente move para a direita
+  const anterior = () => {
+    if (animacao) return;
     setAnimacao("right");
     setTimeout(() => {
-      setIndex((prev) => (prev + 1) % total);
+      setIndex((prev) => circularAt(prev - 1));
       setAnimacao(null);
-    }, 300); // duração da animação
-  };
-
-  const anterior = () => {
-    setAnimacao("left");
-    setTimeout(() => {
-      setIndex((prev) => (prev - 1 + total) % total);
-      setAnimacao(null);
-    }, 300);
+    }, 350);
   };
 
   const receitasVisiveis = getVisiveis();
+
+  // Determine transform em pixels percentuais: 1 passo = largura de 1 card (~25%)
+  const transformStyle =
+    animacao === "left" ? "translateX(-25%)" : animacao === "right" ? "translateX(25%)" : "translateX(0)";
 
   return (
     <section className="relative px-6 mb-10 overflow-hidden">
@@ -60,25 +68,28 @@ export default function RecipeSection({ titulo, receitas, filtro = "" }: RecipeS
 
       {/* Botões de navegação */}
       <button
-        onClick={anterior}
+        onClick={proximo}
+        aria-label="Anterior"
         className="absolute left-0 top-1/2 -translate-y-1/2 bg-white border rounded-full shadow p-2 hover:bg-gray-100 z-10"
       >
         ◀
       </button>
       <button
-        onClick={proximo}
+        onClick={anterior}
+        aria-label="Próximo"
         className="absolute right-0 top-1/2 -translate-y-1/2 bg-white border rounded-full shadow p-2 hover:bg-gray-100 z-10"
       >
         ▶
       </button>
 
-      {/* Carrossel com transição animada */}
+      {/* Container com transform aplicado inline para evitar conflito de classes */}
       <div
-        className={`
-            grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4
-        `}
-        >
-
+        style={{
+          transform: transformStyle,
+          transition: animacao ? "transform 350ms ease" : "none",
+        }}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+      >
         {receitasVisiveis.map((r, i) => (
           <RecipeCard key={`${r.nome}-${i}`} {...r} />
         ))}
