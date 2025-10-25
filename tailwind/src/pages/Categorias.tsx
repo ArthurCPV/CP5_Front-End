@@ -1,40 +1,49 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface Categoria {
   nome: string;
   imagem: string;
   descricao: string;
+  tipo: "classicas" | "rapidas" | "tematicas"; // relação direta com Home
 }
 
 export default function Categorias() {
   const [categorias, setCategorias] = useState<Categoria[]>([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    // exemplo estático — você pode conectar ao receitas.json depois
     setCategorias([
       {
-        nome: "Sobremesas",
-        imagem: "https://images.unsplash.com/photo-1612197527762-8b0bde91b9c5?w=800&q=80",
-        descricao: "Delícias doces para qualquer momento.",
-      },
-      {
-        nome: "Lanches e Sanduíches",
+        nome: "Clássicas",
         imagem: "https://images.unsplash.com/photo-1550317138-10000687a72b?w=800&q=80",
-        descricao: "Rápidos, práticos e cheios de sabor.",
+        descricao: "Receitas tradicionais que nunca saem de moda.",
+        tipo: "classicas",
       },
       {
-        nome: "Pratos Principais",
-        imagem: "https://images.unsplash.com/photo-1605478500123-e47b0b06a8e1?w=800&q=80",
-        descricao: "Receitas completas para suas refeições.",
+        nome: "Preparo Rápido",
+        imagem: "https://images.unsplash.com/photo-1612197527762-8b0bde91b9c5?w=800&q=80",
+        descricao: "Praticidade e sabor em minutos.",
+        tipo: "rapidas",
       },
       {
-        nome: "Bebidas",
+        nome: "Temáticas",
         imagem: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
-        descricao: "Bebidas refrescantes e criativas.",
+        descricao: "Receitas especiais para ocasiões únicas.",
+        tipo: "tematicas",
+      },
+      {
+        nome: "Todas as Receitas",
+        imagem: "https://images.unsplash.com/photo-1605478500123-e47b0b06a8e1?w=800&q=80",
+        descricao: "Explore todas as nossas deliciosas receitas.",
+        tipo: "classicas",
       },
     ]);
   }, []);
+
+  const handleClick = (tipo: "classicas" | "rapidas" | "tematicas") => {
+    navigate("/", { state: { categoriaSelecionada: tipo } });
+  };
 
   return (
     <div className="max-w-6xl mx-auto p-8 mt-10">
@@ -44,10 +53,10 @@ export default function Categorias() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {categorias.map((cat) => (
-          <Link
+          <div
             key={cat.nome}
-            to={`/categorias/${cat.nome.toLowerCase()}`}
-            className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden group"
+            onClick={() => handleClick(cat.tipo)}
+            className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden group cursor-pointer"
           >
             <img
               src={cat.imagem}
@@ -60,7 +69,7 @@ export default function Categorias() {
               </h2>
               <p className="text-gray-600 text-sm">{cat.descricao}</p>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>

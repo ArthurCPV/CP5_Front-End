@@ -63,37 +63,38 @@ export default function RecipeSection({ titulo, receitas, filtro = "" }: RecipeS
     animacao === "left" ? "translateX(-25%)" : animacao === "right" ? "translateX(25%)" : "translateX(0)";
 
   return (
-    <section className="relative px-6 mb-10 overflow-hidden">
-      <h2 className="text-2xl font-bold mb-4">{titulo}</h2>
+    <section className="relative px-6 mb-20 overflow-visible z-0">
+      <h2 className="text-2xl font-bold mb-6">{titulo}</h2>
 
       {/* Botões de navegação */}
       <button
         onClick={proximo}
         aria-label="Anterior"
-        className="absolute left-0 top-1/2 -translate-y-1/2 bg-white border rounded-full shadow p-2 hover:bg-gray-100 z-10"
+        className="absolute left-0 top-1/2 -translate-y-1/2 bg-white border rounded-full shadow p-2 hover:bg-gray-100 z-20"
       >
         ◀
       </button>
       <button
         onClick={anterior}
         aria-label="Próximo"
-        className="absolute right-0 top-1/2 -translate-y-1/2 bg-white border rounded-full shadow p-2 hover:bg-gray-100 z-10"
+        className="absolute right-0 top-1/2 -translate-y-1/2 bg-white border rounded-full shadow p-2 hover:bg-gray-100 z-20"
       >
         ▶
       </button>
 
-      {/* Container com transform aplicado inline para evitar conflito de classes */}
+      {/* Container dos cards */}
       <div
         style={{
           transform: transformStyle,
           transition: animacao ? "transform 350ms ease" : "none",
         }}
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
       >
         {receitasVisiveis.map((r, i) => (
           <RecipeCard key={`${r.nome}-${i}`} {...r} />
         ))}
       </div>
     </section>
+
   );
 }

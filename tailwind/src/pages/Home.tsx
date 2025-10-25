@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import RecipeSection from "../components/RecipeSection";
 
@@ -20,6 +21,16 @@ export default function Home() {
   const [categoriaSelecionada, setCategoriaSelecionada] =
     useState<CategoriaKey>("classicas");
   const [busca, setBusca] = useState("");
+
+  const location = useLocation();
+
+  // Quando vier da página Categorias, definir a categoria enviada
+  useEffect(() => {
+    const state = location.state as { categoriaSelecionada?: CategoriaKey };
+    if (state?.categoriaSelecionada) {
+      setCategoriaSelecionada(state.categoriaSelecionada);
+    }
+  }, [location.state]);
 
   // Carregar JSON
   useEffect(() => {

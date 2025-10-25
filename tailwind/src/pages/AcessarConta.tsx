@@ -1,19 +1,21 @@
-import { useState } from "react";
+import { useForm } from "react-hook-form";
+
+interface LoginFormInputs {
+  email: string;
+  senha: string;
+}
 
 export default function AcessarConta() {
-  const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
-  const [erro, setErro] = useState("");
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<LoginFormInputs>();
 
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email === "" || senha === "") {
-      setErro("Preencha todos os campos.");
-    } else {
-      setErro("");
-      alert("Login simulado com sucesso!");
-      // futura integração com backend (API)
-    }
+  const onSubmit = (data: LoginFormInputs) => {
+    alert(`Login simulado com sucesso!\nE-mail: ${data.email}`);
+    reset();
   };
 
   return (
@@ -25,31 +27,60 @@ export default function AcessarConta() {
         Faça login para salvar suas receitas favoritas e compartilhar as suas!
       </p>
 
-      {erro && (
-        <p className="text-red-600 font-medium text-center mb-4">{erro}</p>
-      )}
-
-      <form onSubmit={handleLogin} className="space-y-4">
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        {/* Campo E-mail */}
         <div>
           <label className="block font-medium text-gray-700 mb-1">E-mail</label>
           <input
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-green-600 outline-none"
+            placeholder="exemplo@email.com"
+            {...register("email", {
+              required: "O campo e-mail é obrigatório.",
+              pattern: {
+                value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                message: "Digite um e-mail válido.",
+              },
+            })}
+            className={`w-full border rounded-lg px-4 py-2 outline-none focus:ring-2 ${
+              errors.email
+                ? "border-red-500 focus:ring-red-500"
+                : "border-gray-300 focus:ring-green-600"
+            }`}
           />
+          {errors.email && (
+            <p className="text-red-600 text-sm mt-1">
+              {errors.email.message}
+            </p>
+          )}
         </div>
 
+        {/* Campo Senha */}
         <div>
           <label className="block font-medium text-gray-700 mb-1">Senha</label>
           <input
             type="password"
-            value={senha}
-            onChange={(e) => setSenha(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-green-600 outline-none"
+            placeholder="Digite sua senha"
+            {...register("senha", {
+              required: "A senha é obrigatória.",
+              minLength: {
+                value: 6,
+                message: "A senha deve ter no mínimo 6 caracteres.",
+              },
+            })}
+            className={`w-full border rounded-lg px-4 py-2 outline-none focus:ring-2 ${
+              errors.senha
+                ? "border-red-500 focus:ring-red-500"
+                : "border-gray-300 focus:ring-green-600"
+            }`}
           />
+          {errors.senha && (
+            <p className="text-red-600 text-sm mt-1">
+              {errors.senha.message}
+            </p>
+          )}
         </div>
 
+        {/* Botão */}
         <button
           type="submit"
           className="w-full bg-green-600 text-white py-2.5 rounded-lg font-semibold hover:bg-green-700 transition"
