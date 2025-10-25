@@ -41,10 +41,10 @@ export default function Home() {
   }, []);
 
   const slides = [
-    "/imagens/brigadeiro.jpg",
-    "/imagens/pudim.jpg",
-    "/imagens/hamburguer.jpg",
-    "/imagens/nuggets.jpg",
+    "/assets/image.png",
+    "/assets/1757683513143.jpg",
+    "/assets/slider-fastfuel.jpg",
+    "/assets/ready_meal_banner.png",
   ];
 
   if (!dados) return <p className="text-center mt-10">Carregando receitas...</p>;
