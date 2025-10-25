@@ -1,8 +1,6 @@
 # DOCUMENTAÇÃO TÉCNICA
 ## Chekpoint 05 da disciplina de Front-end
-
 ---
-
 Integrantes:
 
 ARTHUR DO SANTOS CABRAL, 566515, 1TDSA
@@ -15,6 +13,7 @@ GABRIEL BORGES CEDRAZ DE SANTANA, 565911, 1TDSA
 
 Estrututura de pastas do projeto.
 
+```md
 📦 Projeto
 │
 ├── 📂 tailwind
@@ -57,4 +56,7 @@ Estrututura de pastas do projeto.
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
+
+
 
