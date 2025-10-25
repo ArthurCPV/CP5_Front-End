@@ -14,8 +14,7 @@ GABRIEL BORGES CEDRAZ DE SANTANA, 565911, 1TDSA
 Estrututura de pastas do projeto.
 
 ```md
-📦 Projeto
-│
+
 ├── 📂 tailwind
 │
 ├── 📂 public
