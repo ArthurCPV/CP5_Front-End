@@ -1,6 +1,6 @@
 # DOCUMENTAÇÃO TÉCNICA
 ## Chekpoint 05 da disciplina de Front-end
----
+
 Integrantes:
 
 ARTHUR DO SANTOS CABRAL, 566515, 1TDSA
