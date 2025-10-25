@@ -85,7 +85,7 @@ Estrututura de pastas do projeto.
 git clone https://github.com/ArthurCPV/CP5_Front-End/
 
 # Acessar a pasta do projeto
-cd ArthurCPV/CP5_Front-End
+cd CP5_Front-End
 
 # Instalar as dependências
 npm install
